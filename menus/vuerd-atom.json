@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Open ERD Editor",
+        "command": "vuerd:webview"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "vuerd",
+          "submenu": [
+            {
+              "label": "Open ERD Editor",
+              "command": "vuerd:webview"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

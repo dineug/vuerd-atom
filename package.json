@@ -1,0 +1,30 @@
+{
+  "name": "vuerd-atom",
+  "main": "./lib/vuerd-atom",
+  "version": "0.1.0",
+  "description": "ERD Editor atom extension",
+  "private": true,
+  "keywords": [
+    "vuerd",
+    "ERD",
+    "Editor",
+    "atom",
+    "db",
+    "database",
+    "diagram"
+  ],
+  "homepage": "https://github.com/vuerd/vuerd-atom",
+  "bugs": {
+    "url": "https://github.com/vuerd/vuerd-atom/issues"
+  },
+  "author": "dineug <dineug2@gmail.com>",
+  "repository": "https://github.com/vuerd/vuerd-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "activationCommands": {
+    "atom-workspace": "vuerd:webview"
+  },  
+  "dependencies": {}
+}
