@@ -2,27 +2,11 @@
 
 > [vuerd](https://github.com/vuerd/vuerd) ERD Editor atom extension
 
-[![npm version](https://img.shields.io/npm/v/vuerd.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/vuerd) [![VS Marketplace version](https://vsmarketplacebadge.apphb.com/version-short/dineug.vuerd-vscode.svg?style=flat-square&color=blue&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode) [![APM](https://img.shields.io/apm/v/vuerd-atom?color=blue&style=flat-square&logo=atom)](https://atom.io/packages/vuerd-atom) [![GitHub](https://img.shields.io/github/license/vuerd/vuerd?style=flat-square&color=blue)](https://github.com/vuerd/vuerd/blob/master/LICENSE) [![Codecov](https://img.shields.io/codecov/c/gh/vuerd/vuerd?logo=codecov&style=flat-square)](https://codecov.io/gh/vuerd/vuerd) [![CI](https://img.shields.io/github/workflow/status/vuerd/vuerd/CI?label=CI&logo=github&style=flat-square)](https://github.com/vuerd/vuerd/actions)
+[![npm version](https://img.shields.io/npm/v/vuerd.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/vuerd) [![VS Marketplace version](https://vsmarketplacebadge.apphb.com/version-short/dineug.vuerd-vscode.svg?style=flat-square&color=blue&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode) [![APM](https://img.shields.io/apm/v/vuerd-atom?color=blue&style=flat-square&logo=atom)](https://atom.io/packages/vuerd-atom) [![GitHub](https://img.shields.io/github/license/vuerd/vuerd?style=flat-square&color=blue)](https://github.com/vuerd/vuerd/blob/master/LICENSE) [![CI](https://img.shields.io/github/workflow/status/vuerd/vuerd/CI?label=CI&logo=github&style=flat-square)](https://github.com/vuerd/vuerd/actions)
 
 ## ERD
 
 ![vuerd](https://github.com/vuerd/vuerd/blob/master/img/vuerd-erd.gif?raw=true)
-
-## Generator SQL DDL
-
-![vuerd](https://github.com/vuerd/vuerd/blob/master/img/vuerd-ddl.gif?raw=true)
-
-## Generator Code
-
-![vuerd](https://github.com/vuerd/vuerd/blob/master/img/vuerd-generator-code.gif?raw=true)
-
-## Visualization
-
-![vuerd](https://github.com/vuerd/vuerd/blob/master/img/vuerd-visualization.gif?raw=true)
-
-## SQL DDL Import
-
-![vuerd](https://github.com/vuerd/vuerd/blob/master/img/vuerd-ddl-import.gif?raw=true)
 
 ## Usage
 
@@ -31,8 +15,6 @@
 
 ## Document
 
-- [Live Demo](https://vuerd.github.io/vuerd/iframe.html?id=demo--live&viewMode=story)
-- [Live Demo Sample](https://vuerd.github.io/vuerd/iframe.html?id=editor--load&viewMode=story)
 - [Import SQL DDL support syntax](https://github.com/dineug/sql-ddl-parser/blob/master/src/SQL_DDL_Test_Case.md)
 
 ## Editor Keymap(default)
@@ -55,8 +37,8 @@
 | New Table                                                  | Alt + N                                                                                  |
 | New Memo                                                   | Alt + M                                                                                  |
 | New - column, filter                                       | Alt + Enter                                                                              |
-| Delete - table, memo                                       | Ctrl + Delete                                                                            |
-| Delete - column, filter                                    | Alt + Delete                                                                             |
+| Delete - table, memo                                       | Ctrl + Delete, Ctrl + Backspace, Cmd + Delete, Cmd + Backspace                           |
+| Delete - column, filter                                    | Alt + Delete, Alt + Backspace                                                            |
 | Select Hint - dataType, find                               | Arrow key(right), Click                                                                  |
 | Move Hint - dataType, find                                 | Arrow key(up, down)                                                                      |
 | Primary Key                                                | Alt + K                                                                                  |

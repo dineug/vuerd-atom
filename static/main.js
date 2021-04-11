@@ -3,16 +3,10 @@
     window.parent.postMessage(Object.assign(data, { from: "vuerd-iframe" }), "*");
   }
 
-  document.body.style = `padding: 0; margin: 0;`;
-  const container = document.querySelector("#app");
+  document.body.style = `padding: 0; margin: 0; width: 100%; height: 100vh;`;
   const editor = document.createElement("erd-editor");
   let currentEditorPath = null;
-
-  window.addEventListener("resize", () => {
-    editor.width = window.innerWidth;
-    editor.height = window.innerHeight;
-  });
-  window.dispatchEvent(new Event("resize"));
+  editor.automaticLayout = true;
 
   function receiveMessage(event) {
     const { from, command, value, editorPath } = event.data;
@@ -29,7 +23,7 @@
               });
             });
             editor.initLoadJson(value);
-            container.appendChild(editor);
+            document.body.appendChild(editor);
           }
           break;
       }
