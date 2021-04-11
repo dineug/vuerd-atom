@@ -1,7 +1,7 @@
 {
   "name": "vuerd-atom",
   "main": "./lib/vuerd-atom",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "ERD Editor atom extension",
   "private": true,
   "keywords": [
